@@ -1,0 +1,15 @@
+@import '../../constants/colors';
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100vw;
+    text-align: center;
+
+    > p {
+        color: $primary-white;
+        font-family: 'Unna', serif;
+        font-size: 20px;
+    }
+}
